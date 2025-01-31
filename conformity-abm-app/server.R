@@ -3,6 +3,7 @@ library(DT)
 library(plotly)
 library(tidyverse)
 
+theme_set(theme_minimal())
 
 # Generates agents based on specified population size (num_of_agents) and proportion of hipsters (hip_prop)
 agentgenerate <- function(num_of_agents,hip_prop,beard_prop) {
